@@ -1,0 +1,14 @@
+{
+    "name": "milonte/learncomposer",
+    "description": "i learn composer in CLI",
+    "authors": [
+        {
+            "name": "Teddy Milon",
+            "email": "milonte@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.1",
+        "ehime/hello-world": "^1.0"
+    }
+}
