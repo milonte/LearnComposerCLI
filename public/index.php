@@ -1,10 +1,10 @@
 <?php
 
 require __DIR__ . '/../vendor/autoload.php';
+use App\Wcs\Oui;
 
-use HelloWorld\SayHello;
-
-$hello = new HelloWorld\SayHello();
+$hello = new Oui();
 echo $hello->world();
 
+use HelloWorld\SayHello;
 echo SayHello::world();

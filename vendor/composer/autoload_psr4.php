@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Egulias\\EmailValidator\\' => array($vendorDir . '/egulias/email-validator/EmailValidator'),
+    'App\\' => array($baseDir . '/src'),
 );
